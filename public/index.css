@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  background-color: #131722;
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+navbar {
+  color: white;
+  margin: 0px;
+  display: flex;
+
+
+}
+
+navbar img {
+  height: 100px;
+  margin-right: 10px;
+  padding-top: 0;
+  padding-bottom:  0;
+  margin-left: 60px;
+}
+
+.round {
+	margin-left: 50px;
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: white;
+}
+.qno {
+	color: cyan;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+#qno {
+	color: yellow;
+}
+
+
+.question-area {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+
+	margin-left: 50px;
+	font-size: 	30px;
+}
+
+.choices-area {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+
+	margin-left: 50px;
+	font-size: 30px;
+
+}
+.controls {
+	margin-top: 100px;
+	margin-left: 500px;
+}
+.controls button{
+	background-color: white;
+	color: purple;
+	border: none;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	width: 70px;
+}
+
+.controls .reveal {
+	margin-right: 30px;
+}
+.controls button:hover {
+	cursor: pointer;
+	font-size: 13px;
+}
